@@ -1,13 +1,10 @@
 const express = require('express')
-// import express from "express"
 const app = express()
 const morgan = require('morgan')
-// import morgan from "morgan"
 const mongoose = require('mongoose')
-// import mongoose from "mongoose"
 const path = require('path')
-require('dotenv').config();
-
+require('dotenv').config()
+const port = process.env.PORT || 5000;
 
 // Middleware //
 app.use(express.json())
@@ -43,6 +40,6 @@ app.get("*", (req, res) => {
 
 
 // Server listen //
-app.listen(process.env.PORT || 5000, () => {
+app.listen(port, () => {
     console.log('The server is running on port 5000')
 })
