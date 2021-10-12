@@ -56,7 +56,7 @@ function EntriesContextProvider(props) {
 
     const allEntries = entries.map(entry => 
         <li>
-            <Entry 
+            <Entry
                 {...entry} 
                 key={entry.title}
                 deleteEntry={deleteEntry}
