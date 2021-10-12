@@ -1,0 +1,29 @@
+{
+  "name": "diary-buddy-capstone",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "��#\u0000 \u0000d\u0000i\u0000a\u0000r\u0000y\u0000-\u0000b\u0000u\u0000d\u0000d\u0000y\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mod-5-james-nyjia/diary-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mod-5-james-nyjia/diary-buddy/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.10",
+    "morgan": "^1.10.0",
+    "react-router-dom": "^5.3.0"
+  }
+}
